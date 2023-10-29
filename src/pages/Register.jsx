@@ -67,7 +67,7 @@ const Register = () => {
   return (
     <div className="formContainer">
       <div className="formWrapper">
-        <span className="logo">Sapphire Chat</span>
+        <span className="logo">Dinesh-Chat</span>
         <span className="title" style={{ color: 'blue' }}><b>Register</b></span>
         {err && <span style={{ color: 'red', textAlign: 'center', display: 'block' }}>Something went wrong</span>}
         <form onSubmit={handleSubmit}>
@@ -77,7 +77,7 @@ const Register = () => {
           <input required style={{ display: "none" }} type="file" id="file" />
           <label htmlFor="file">
             <img src={Add} alt="" />
-            <span>Add an avatar</span>
+            <span>Add Profile Pic</span>
           </label>
           <button disabled={loading}>Sign up</button>
           {showSpinner && (

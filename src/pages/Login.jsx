@@ -22,7 +22,7 @@ const Login = () => {
   return (
     <div className="formContainer">
       <div className="formWrapper">
-        <span className="logo">Sapphire Chat</span>
+        <span className="logo">Dinesh-Chat</span>
         <span className="title" style={{color: 'blue'}}>Login</span>
         {err && <span style={{ color: 'red', textAlign: 'center', display: 'block' }}>Something went wrong</span>}
         <form onSubmit={handleSubmit}>
